@@ -28,26 +28,26 @@ export const LUXSOCHAIN_MAINNET = {
   testnet: false,
 }
 
-export const LUKSOCHAIN_TESTNET = {
-  id: 4201,
-  name: 'LUKSO Testnet',
-  network: 'LUKSO Testnet',
-  iconUrl: 'https://icons8.com/icon/Lvi9wlesXBIE/chain',
-  iconBackground: '#fff',
-  nativeCurrency: {
-    decimals: 18,
-    name: '	LYXt',
-    symbol: '	LYXt',
-  },
-  rpcUrls: {
-    public: { http: ['https://rpc.testnet.lukso.network/'] },
-    default: { http: ['https://rpc.testnet.lukso.network/'] },
-  },
-  blockExplorers: {
-    default: { name: 'Luxsoscan', url: 'https://explorer.execution.testnet.lukso.network/' },
-    etherscan: { name: 'Luxsoscan', url: 'https://explorer.execution.testnet.lukso.network/' },
-  },
-  testnet: true,
-}
+// export const LUKSOCHAIN_TESTNET = {
+//   id: 4201,
+//   name: 'LUKSO Testnet',
+//   network: 'LUKSO Testnet',
+//   iconUrl: 'https://icons8.com/icon/Lvi9wlesXBIE/chain',
+//   iconBackground: '#fff',
+//   nativeCurrency: {
+//     decimals: 18,
+//     name: '	LYXt',
+//     symbol: '	LYXt',
+//   },
+//   rpcUrls: {
+//     public: { http: ['https://rpc.testnet.lukso.network/'] },
+//     default: { http: ['https://rpc.testnet.lukso.network/'] },
+//   },
+//   blockExplorers: {
+//     default: { name: 'Luxsoscan', url: 'https://explorer.execution.testnet.lukso.network/' },
+//     etherscan: { name: 'Luxsoscan', url: 'https://explorer.execution.testnet.lukso.network/' },
+//   },
+//   testnet: true,
+// }
 
 export default COMMON;
